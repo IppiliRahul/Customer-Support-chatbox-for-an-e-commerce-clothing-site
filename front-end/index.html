@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Customer Support Chatbot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Customer Support Chatbot</h1>
+
+  <div class="section">
+    <h2>1. Top 5 Best-Selling Products</h2>
+    <button onclick="getTopProducts()">Get Top Products</button>
+    <ul id="top-products"></ul>
+  </div>
+
+  <div class="section">
+    <h2>2. Check Order Status</h2>
+    <input type="text" id="orderIdInput" placeholder="Enter Order ID">
+    <button onclick="getOrderStatus()">Check Status</button>
+    <p id="orderStatus"></p>
+  </div>
+
+  <div class="section">
+    <h2>3. Check Product Stock</h2>
+    <input type="text" id="productIdInput" placeholder="Enter Product ID">
+    <button onclick="getStock()">Check Stock</button>
+    <p id="stockInfo"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

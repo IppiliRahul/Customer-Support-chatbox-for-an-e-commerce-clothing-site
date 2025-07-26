@@ -1,0 +1,5 @@
+orderId,productId,status
+1001,101,Delivered
+1002,104,Shipped
+1003,102,Cancelled
+1004,103,Delivered
